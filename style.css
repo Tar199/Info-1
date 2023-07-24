@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    background-color: #121212;
+}
+
+#calculator {
+    width: 450px;
+    height: 580px;
+    margin: 40px auto;
+    background-color: #242424;
+    border: 2px solid #B0E0E6;
+    border-radius: 20px;
+    color: #cdcdcd;
+    box-shadow: 5px 5px 5px #B0E0E6;
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('Roboto-Thin.ttf') format('truetype');
+}
+h1 {
+    color: #fa3904e3;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 10px;
+}
+.display {
+    width: 100%;
+    height: 100px;
+    background-color: #121212;
+    font-size: 40px;
+    text-align: left;
+    padding: 23px;
+    box-sizing: border-box;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-family: 'SevenSegment', sans-serif;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+button {
+    width: 100%;
+    height: 70px;
+    font-size: 28px;
+    background-color: white;
+    color: rgb(239, 11, 11);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 3px rgb(75, 209, 75));
+    font-weight: bolder;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.operator {
+    background-color: #8bfa04e3;
+    color: #fff;
+}
+
+.equals {
+    background-color: #007bff;
+    color: #fff;
+}
