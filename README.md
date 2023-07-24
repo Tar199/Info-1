@@ -1,2 +1,2 @@
 #Task -3
- Calculator
+ Calculator  performs basic math operations.
