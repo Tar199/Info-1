@@ -9,7 +9,7 @@ body {
     height: 580px;
     margin: 40px auto;
     background-color: #242424;
-    border: 2px solid #B0E0E6;
+    border: 5px solid #B0E0E6;
     border-radius: 20px;
     color: #cdcdcd;
     box-shadow: 5px 5px 5px #B0E0E6;
@@ -20,7 +20,7 @@ body {
     src: url('Roboto-Thin.ttf') format('truetype');
 }
 h1 {
-    color: #fa3904e3;
+    color: #f37005fd;
     text-align: center;
     font-size: 4rem;
     padding-top: 10px;
@@ -54,20 +54,20 @@ button {
     border-radius: 15px;
     border: none;
     cursor: pointer;
-    filter: drop-shadow(3px 3px 3px rgb(75, 209, 75));
+    filter: drop-shadow(2px 2px 2px rgb(242, 123, 4));
     font-weight: bolder;
 }
 
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .operator {
-    background-color: #8bfa04e3;
+    background-color: #f37005fd;
     color: #fff;
 }
 
 .equals {
-    background-color: #007bff;
+    background-color: #f37005fd;
     color: #fff;
 }
