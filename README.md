@@ -1,2 +1,3 @@
-#Task -3
- Calculator  performs basic math operations.
+#Info 1 - Calculator
+
+As a beginner in web development, one of the most instructive projects you can tackle is building a calculator. I've gained practical insights into web development and design. I've learned how to structure HTML for user interfaces, apply CSS to achieve a visually appealing and responsive design, and use Google Fonts for typography enhancements. Additionally, I've implemented JavaScript functions for calculator functionality, including handling user input, performing calculations, and displaying results. This project has provided valuable hands-on experience in front-end web development, encompassing HTML, CSS, and JavaScript, and has expanded my understanding of creating interactive and aesthetically pleasing web applications.
